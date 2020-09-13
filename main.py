@@ -134,3 +134,53 @@ cars.remove(too_expensive)
 message = "\n A " + too_expensive.title() + " is too expensive for me."
 print(cars)
 print(message)
+
+#exercise 3-4
+guests = ['Jon', 'bob', 'ken']
+message = "Invitation message for "
+print(message + guests[0].title())
+print(message + guests[1].title())
+print(message + guests[2].title())
+# 3-5
+guest_del = guests.pop(2)
+print("Won't be able to come " + guest_del.title())
+print(guests)
+guests.insert(2, 'luk')
+print(message + guests[0].title())
+print(message + guests[1].title())
+print(message + guests[2].title())
+#3-6
+guests.insert(0, 'jool')
+guests.insert(2, 'tom')
+guests.append('jerry')
+print(guests)
+print(message + guests[0].title())
+print(message + guests[1].title())
+print(message + guests[2].title())
+print(message + guests[3].title())
+print(message + guests[4].title())
+print(message + guests[5].title())
+#3-7
+jerry = 'jerry'
+guests.remove(jerry)
+message_sorry = "I was sorry to cancel invitations for you "
+print(message_sorry + jerry.title())
+
+luk = 'luk'
+guests.remove(luk)
+print(message_sorry + luk.title())
+
+last_guest = guests.pop()
+print(message_sorry + last_guest.title())
+
+last_guest = guests.pop()
+print(message_sorry + last_guest.title())
+print(guests)
+
+print(message + guests[0].title())
+print(message + guests[-1].title())
+
+del guests[0]
+del guests[0]
+
+print(guests)
