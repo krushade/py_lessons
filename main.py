@@ -93,3 +93,44 @@ never_buy = "Never buy a " + auto[1].upper()
 print(never_buy)
 fast_car = "Very fast car this is " + auto[2].title() + "-GTR R35"
 print(fast_car)
+
+cars = ['honda', 'nissan', 'toyota', 'subaru']
+print(cars)
+
+cars[2] = 'mitsubishi'
+print(cars)
+
+cars.append('toyota')
+print(cars)
+cars.insert(1, 'ford')
+print(cars)
+
+del cars[1]
+print(cars)
+
+cars.insert(2, "doodge")
+print(cars)
+
+cars.pop()
+print(cars)
+
+car_pop = cars.pop(2)
+print(cars)
+print(car_pop)
+
+last_owner = cars.pop()
+message = "The last car I owned was a " + last_owner.title() + "."
+print(message)
+
+first_owned = cars.pop(0)
+message = "The first car I owned was a " + first_owned.title() + "."
+print(message)
+print(cars)
+cars.remove('mitsubishi')
+print(cars)
+
+too_expensive = 'nissan'
+cars.remove(too_expensive)
+message = "\n A " + too_expensive.title() + " is too expensive for me."
+print(cars)
+print(message)
