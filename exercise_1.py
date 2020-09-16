@@ -5,5 +5,5 @@ if __name__ == '__main__':
         for even_num in all_nums:
             if even_num % 2 == 0:
                 even_nums.append(even_num)
-        print(even_nums)
+        return even_nums
     print(even())
