@@ -110,7 +110,7 @@ if __name__ == '__main__':
     #     pets.remove('cat')
     # print(pets)
 
-    Опрос
+    # Опрос
     опрос = {}
     активация_опроса =True
     while активация_опроса:
