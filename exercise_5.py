@@ -6,18 +6,18 @@ mes += "\nEnter any number: "
 
 
 def decor(func):
-    def wrapper(nums):
-        print(f"nums: {nums}")
-        for num in nums:
-            num = int(num)
-            cub_nums.append(num ** 3)
-        func(nums)
+    def wrapper(d_nums):
+        print(f"nums: {d_nums}")
+        for d_num in d_nums:
+            d_num = int(d_num)
+            cub_nums.append(d_num ** 3)
+        func(d_nums)
         print(f"squares: {sqr_nums}")
         print(f"cubs: {cub_nums}")
         with open(input("Enter your file name: ") + ".txt", "w") as file:
-            file.write(f"numbers: {nums}\n"
-                       f"square numbers: {sqr_nums}\n"
-                       f"cube numbers: {cub_nums}")
+            file.write(f"numbers: \t{d_nums}\n"
+                       f"square numbers: \t{sqr_nums}\n"
+                       f"cube numbers: \t{cub_nums}")
     return wrapper
 
 
