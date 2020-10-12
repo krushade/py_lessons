@@ -17,7 +17,7 @@ def decor(func):
     return wrapper
 
 
-# @decor
+@decor
 def square(numbers):
     for number in numbers:
         number = int(number)
