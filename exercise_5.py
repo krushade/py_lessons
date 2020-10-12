@@ -14,6 +14,10 @@ def decor(func):
         func(nums)
         print(f"squares: {sqr_nums}")
         print(f"cubs: {cub_nums}")
+        with open(input("Enter your file name: ") + ".txt", "w") as file:
+            file.write(f"numbers: {nums}\n"
+                       f"square numbers: {sqr_nums}\n"
+                       f"cube numbers: {cub_nums}")
     return wrapper
 
 
