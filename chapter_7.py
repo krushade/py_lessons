@@ -67,21 +67,21 @@ if __name__ == '__main__':
     #     print(num)
 
     # zadanie pizza
-    # pizza = {'testo': 'tonkoe', 'dopolnenie': set()}
-    # dopolneniya = ['bekon', 'ananas', 'kyritca', 'perec', 'pomidor']
-    # tekst = f"Dlya vyhoda vvedite 'exit' \nvybor dopov {dopolneniya}"
-    # tekst += "\n\tVvedite dopolnenie k pizza: "
-    #
-    # while True:
-    #     dop = input(tekst)
-    #     if dop == 'exit':
-    #         print(f"Vash zakaz {pizza}!")
-    #         break
-    #     elif dop in dopolneniya:
-    #         print(f"Dobavleno: {dop}")
-    #         pizza['dopolnenie'].add(dop)
-    #     else:
-    #         print("Nepravilnyi vybor")
+    pizza = {'testo': 'tonkoe', 'dopolnenie': set()}
+    dopolneniya = ['bekon', 'ananas', 'kyritca', 'perec', 'pomidor']
+    tekst = f"Dlya vyhoda vvedite 'exit' \nvybor dopov {dopolneniya}"
+    tekst += "\n\tVvedite dopolnenie k pizza: "
+
+    while True:
+        dop = input(tekst)
+        if dop == 'exit':
+            print(f"Vash zakaz {pizza}!")
+            break
+        elif dop in dopolneniya:
+            print(f"Dobavleno: {dop}")
+            pizza['dopolnenie'].add(dop)
+        else:
+            print("Nepravilnyi vybor")
 
     # zadanie ticket:
     # age = input("Введите ваш возраст: ")
@@ -111,15 +111,15 @@ if __name__ == '__main__':
     # print(pets)
 
     # Опрос
-    опрос = {}
-    активация_опроса =True
-    while активация_опроса:
-        имя = input("\nВведите ваше имя: ")
-        вопрос = input("\nКакая ваша любимая марка авто: ")
-        продолжить = input("Вы хотите ввести данные очередного человека: (да/нет)")
-        опрос[имя] = вопрос
-        if продолжить == 'нет':
-            активация_опроса = False
-    print("Результаты опроса:")
-    for имя, марка in опрос.items():
-        print(f"Имя: {имя.title()}, любмая марка авто: {марка.title()} ")
+    # опрос = {}
+    # активация_опроса =True
+    # while активация_опроса:
+    #     имя = input("\nВведите ваше имя: ")
+    #     вопрос = input("\nКакая ваша любимая марка авто: ")
+    #     продолжить = input("Вы хотите ввести данные очередного человека: (да/нет)")
+    #     опрос[имя] = вопрос
+    #     if продолжить == 'нет':
+    #         активация_опроса = False
+    # print("Результаты опроса:")
+    # for имя, марка in опрос.items():
+    #     print(f"Имя: {имя.title()}, любмая марка авто: {марка.title()} ")
