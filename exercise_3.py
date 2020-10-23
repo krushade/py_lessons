@@ -7,7 +7,11 @@ def sort(nums):
     nums_sorted = {}
     for num in nums:
         nums_sorted[num] = nums.count(num)
+<<<<<<< HEAD
     return nums_sorted
+=======
+    return  nums_sorted
+>>>>>>> 9a959e176bc36c82cd6cbfb703d93e9f9bc2a60f
 
 
 if __name__ == '__main__':
