@@ -1,0 +1,27 @@
+/*#division_1 * {
+	border: 3px solid green
+} применяет свойства ко всем элементам*/
+
+/*li a {
+	background: yellow
+} применяет свойства ко всем потомкам-a элемента-li*/
+
+/*h3 + ul {
+	color: red
+} применяет свойства ко всем элементам-ul,
+ которые идут после заголовка-h3*/
+
+ a[href="https://masters-of-code.com/ru/index.html"] {
+ 	background: green;
+ 	color: yellow
+ }
+
+ ul:nth-of-type(2) {
+ 	background: #00bfff;
+ 	color: white;
+ } /*применяет свойства ко второму элементу ul на странице*/
+
+ p:nth-of-type(2) {
+ 	background: rgb(196, 0, 183);
+ 	color: rgb(26, 239, 221);
+ }

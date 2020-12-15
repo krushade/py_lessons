@@ -1,0 +1,9 @@
+.blue_bord {
+	color: white;
+	background: blue;
+	border: 2px dashed white;
+}
+#second_p {
+	color: yellow;
+	background: red;
+}

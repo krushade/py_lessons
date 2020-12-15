@@ -1,0 +1,23 @@
+body {
+	background: url(https://apod.nasa.gov/apod/image/2011/lunaortyblue1200.jpg);
+	color: #fff;
+}
+
+#d01 {
+	background: rgba(178, 0, 255, 0.8);
+	width: 350px;
+	position: absolute;
+	top: 66px;
+	left: 200px;
+	z-index: 2;
+
+}
+
+#d02 {
+	background: rgba(0, 255, 237, 0.8);
+	width: 350px;
+	height: 70px;
+	position: relative;
+	top: 50px;
+	z-index: 1;
+}
