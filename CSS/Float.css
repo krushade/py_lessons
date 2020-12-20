@@ -1,0 +1,21 @@
+.bwb {
+	color: white;
+	background: blue;
+	border: 2px dashed white;
+	margin-bottom: 120px;
+	width: 150px;
+	padding: 20px 50px 10px 40px;
+	float: left;
+}
+#sp {
+	color: yellow;
+	background: red;
+	margin-bottom: 120px;
+	padding: 20px 50px 10px 40px;
+	width: 150px;
+	float: right;
+}	
+
+.clear {
+	clear: both;
+}

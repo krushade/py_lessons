@@ -1,0 +1,21 @@
+body {
+	background: rgba(0, 216, 255, 0.2)
+}
+
+#d01 {
+	background: rgba(250, 255, 0, 0.7);
+	float: left;
+}
+
+#d02 {
+	background: rgba(238, 0, 255, 0.4);
+	float: right;
+}
+
+#d03 {
+	background: rgba(0, 38, 255, 0.4)
+}
+
+.clear_p {
+	clear: both;
+}
