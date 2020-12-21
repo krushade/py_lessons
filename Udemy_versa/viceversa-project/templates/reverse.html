@@ -1,5 +1,17 @@
-<h1>Original Text has {{ln}} words</h1>
-{{usertext}}
+<style>
+    body {
+        background: rgb(255, 223, 137);
+    }
+    #h01 {background: rgb(139, 94, 158);
+        width: 355px;}
+    #h02 {background: rgb(139, 94, 158);
+        width: 195px;}
+</style>
 
-<h1>Reversed Text</h1>
-{{reversetext}}
+<body>
+    <h1 id="h01">Original Text has {{ln}} words</h1>
+    {{usertext}}
+
+    <h1 id="h02">Reversed Text</h1>
+    {{reversetext}}
+</body>

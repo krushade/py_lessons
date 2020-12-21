@@ -1,25 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vice Versa</title>
-    <style>
-        textarea {
-            border: 4px solid rgb(0, 161, 255);
+<style>
+    body {
+        background: rgb(182, 122, 211);
+    }
+    textarea {
+        border: 4px solid rgb(0, 161, 255);
         }
-    </style>
-</head>
+</style>
+
 <body>
-    <h1>Vice Versa</h1>
+    <h1>Enter text for reverse</h1>
 
     <form action="{% url 'reverse' %}">
-
-    <textarea rows="15" cols="50" name="usertext"></textarea>
-    <br> <br>
-    <input type="submit" value="Reverse!">
-
+        <textarea rows="15" cols="50" name="usertext"></textarea>
+        <br> <br>
+        <input type="submit" value="Reverse!">
     </form>
-    
 </body>
-</html>

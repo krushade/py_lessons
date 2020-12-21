@@ -13,5 +13,3 @@ def reverse(request):
     return render(request, 'reverse.html', {'usertext': user_text,
                                             'reversetext': reverse_text,
                                             'ln': ln})
-
-
