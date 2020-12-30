@@ -1,20 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Home</title>
-	<style>
+{% extends "base.html" %}
+{% block style %}
     body {
         background: rgb(182, 122, 211);
     }
     p {border: 4px solid rgb(0, 161, 255); width: 185px}
-</style>
-</head>
-<body>
+{% endblock %}
+{% block title %}Тест{% endblock %}
+{% block body %}
 	<h1>Тест на пидора</h1>
 
     <form method="POST">
     	<input placeholder="Введите Имя" type="text" name="name">
         <input type="submit" value="Принять">
     </form>
-</body>
-</html>
+{% endblock %}
